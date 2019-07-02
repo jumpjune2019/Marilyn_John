@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+//var x;
+var myJson = '{
+	"term1":"def1", "term2":"def2", "term3":"def3", "term4":"def4", "term5":"def5"
+	}';
+/*
+  for (x in myJson) { 
+	 document.getElementById("demo").innerHTML += myJson[x]+":"+x+"<br>";
+  }
+ */
+  var jSObject = JSON.parse(myJson);
+  document.getElementById("demo").innerHTML = jSObject.term1 +", "+jSObject.term2;
+</script>
+
+
+</body>
+</html>
+
