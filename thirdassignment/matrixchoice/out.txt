@@ -1,0 +1,2 @@
+Email java@gmai.com is valid. Please input another one.
+Email love@vava.com is valid. Please input another one.
