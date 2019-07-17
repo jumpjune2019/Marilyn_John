@@ -1,0 +1,6 @@
+
+interface DiceGame {
+
+	int RandomNumber();
+	
+}
